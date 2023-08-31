@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pn-psp-test-client-side-solution",
+    "id": "7cfaead9-f2db-4e8f-9fda-3666122f5a0a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PnPSP-Test description"
+      },
+      "longDescription": {
+        "default": "PnPSP-Test description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pn-psp-test Feature",
+        "description": "The feature that activates elements of the pn-psp-test solution.",
+        "id": "e0a9297e-7f6a-4be0-b130-0124e5edb7b0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pn-psp-test.sppkg"
+  }
+}

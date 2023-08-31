@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "pn-psp-test",
+    "libraryId": "7cfaead9-f2db-4e8f-9fda-3666122f5a0a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PnPSP-Test",
+    "solutionShortDescription": "PnPSP-Test description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
